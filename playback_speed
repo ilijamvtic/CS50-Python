@@ -1,0 +1,3 @@
+eingabe = input("Bitte geben Sie hier Ihren Text ein.")
+neue_eingabe = eingabe.replace(" ","...")
+print(neue_eingabe)
