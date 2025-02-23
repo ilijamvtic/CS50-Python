@@ -1,0 +1,3 @@
+eingabe = input("Say, HELLO WORLD!")
+eingabe_in_kleinbuchstaben = eingabe.lower()
+print(eingabe_in_kleinbuchstaben)
