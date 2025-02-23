@@ -1,0 +1,15 @@
+from dataclasses import replace
+
+from matplotlib.testing.compare import convert
+
+
+def main():
+    eingabe = input("Fügen Sie Ihren Text ein.")
+    ausgabe = convert(eingabe)
+    print(ausgabe)
+
+def convert(eingabe):
+    return eingabe.replace(":)", "😊").replace(":(", "☹️")
+
+
+main()
